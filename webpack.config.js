@@ -3,7 +3,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  target: node 12, 
+  target: 'node 14. 18' , 
   entry: './src/index.js',
   mode: 'production',
   output: {
