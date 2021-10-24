@@ -1,4 +1,4 @@
-import person from '../first.js';
+import person from '../app.js';
 
 test('should person', () => {
   const result = person({ name: 'Маг', health: 90 });
